@@ -33,7 +33,7 @@ data/            → Raw data
 sql/             → SQL scripts  
 python/          → Sentiment analysis code  
 outputs/         → Processed CSV files  
-powerbi/         → Dashboard file (.pbix)  
+powerbi/         → Dashboard (.pbix) + images  
 presentation/    → Business case PPT  
 README.md  
 ```
@@ -42,11 +42,27 @@ README.md
 
 ## 📊 Dashboard Preview
 
-> ⚠️ Add your dashboard screenshot here
+### 🔹 Overview Dashboard
 
-```
-![Dashboard](powerbi/dashboard.png)
-```
+![Overview](powerbi/overview.png)
+
+---
+
+### 🔹 Conversion Analysis
+
+![Conversion](powerbi/conversion_details.png)
+
+---
+
+### 🔹 Social Media Insights
+
+![Social Media](powerbi/social_media_details.png)
+
+---
+
+### 🔹 Customer Reviews & Sentiment
+
+![Reviews](powerbi/reviews.png)
 
 ---
 
@@ -55,13 +71,13 @@ README.md
 * ⭐ Higher ratings strongly correlate with positive sentiment
 * 📈 Majority of customers give 4–5 star ratings
 * 💬 Positive sentiment dominates customer reviews
-* 📊 Conversion rate varies across customer actions
+* 📊 Conversion rates vary across products and time
 
 ---
 
 ## 📈 Features
 
-* ✔ Conversion rate calculation
+* ✔ Conversion rate analysis
 * ✔ Sentiment analysis using VADER (NLP)
 * ✔ Interactive Power BI dashboard
 * ✔ Customer journey analysis
